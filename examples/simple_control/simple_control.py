@@ -11,7 +11,7 @@ PORT_UART = 0
 PORT_CAN = 1
 
 # Modify PORT_TYPE to select the communication port
-PORT_TYPE = PORT_CAN
+PORT_TYPE = PORT_UART
 
 if PORT_TYPE == PORT_UART:
     from interface.uart_interface import *

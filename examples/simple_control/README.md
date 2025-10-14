@@ -8,6 +8,31 @@ Download from [PCAN Drivers](https://peak-system.com.cn/driver/) according to yo
 
 ## 2. Preparation
 
+### 2.1 Install PCAN-Basic lib
+
+Windows:
+
+Download from https://www.peak-system.com/PCAN-Basic.126.0.html?&L=1 
+
+Put files to the same partition as your ohand_serial_sdk, e.g., d:\
+
+Make dirs/files look as d:\PCAN-Basic
+
+---
+
+Linux:
+
+Download from https://www.peak-system.com/PCAN-Basic-Linux.433.0.html?&L=1
+
+```BASH
+tar -xzf PCAN-Basic_Linux-4.10.0.4.tar.gz
+cd PCAN-Basic_Linux-4.10.0.4/libpcanbasic/pcanbasic
+make clean
+sudo make && sudo make install
+```
+
+### 2.2 Install Requirements
+
 ```BASH
 pip install -r requirements.txt
 ```

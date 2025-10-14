@@ -7,4 +7,3 @@ OHandSerialAPI.py: APIs.
 interface/: Communication interface.
 
 example/: Examples.
-"# ohand_serial_sdk_python" 

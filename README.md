@@ -19,3 +19,6 @@ python3 -m pip install -e .
 cd ohand_serial_sdk_python/examples/simple_control
 python3 simple_control.py
 ```
+
+
+quick test
